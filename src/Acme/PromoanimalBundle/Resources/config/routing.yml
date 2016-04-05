@@ -1,0 +1,11 @@
+acme_promoanimal_product:
+    resource: "@AcmePromoanimalBundle/Resources/config/routing/product.yml"
+    prefix:   /product
+
+acme_promoanimal_homepage:
+    path:     /
+    defaults: { _controller: AcmePromoanimalBundle:Default:index }
+    
+acme_promoanimal_admin:
+    path:     /admin
+    defaults: { _controller: AcmePromoanimalBundle:Default:admin }

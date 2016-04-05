@@ -1,0 +1,7 @@
+acme_promoanimal:
+    resource: "@AcmePromoanimalBundle/Resources/config/routing.yml"
+    prefix:   /
+    
+logout:
+    path: /logout    
+
