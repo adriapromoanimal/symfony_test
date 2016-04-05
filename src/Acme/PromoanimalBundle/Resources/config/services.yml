@@ -1,0 +1,4 @@
+services:
+#    acme_promoanimal.example:
+#        class: Acme\PromoanimalBundle\Example
+#        arguments: ["@service_id", "plain_value", %parameter%]

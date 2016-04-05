@@ -1,0 +1,26 @@
+{
+  "name": "bower",
+  "authors": [
+    "Adria <adria@promoanimal.com>"
+  ],
+  "description": "bower example",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "git://github.com/components/jquery.git",
+    " bootstrap": " git://github.com/twbs/bootstrap.git",
+    "bootstrap": "*"
+  },
+  "devDependencies": {
+    "twig.js": "~0.8.1"
+  }
+}
